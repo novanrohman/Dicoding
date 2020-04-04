@@ -1,0 +1,189 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* ================================================================== */
+
+@media screen and (min-width: 900px){
+    .flex-column {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        padding: 10px;
+        margin: 35px;
+        box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.2);
+    }
+    
+    .img-galeri {
+        display: flex;
+        flex-direction: row;
+    }
+    }
+    
+    @media screen and (min-width: 750px){
+    .flex-column {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        padding: 10px;
+        margin: 25px;
+        box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.2);
+    }
+    
+    .img-galeri {
+        display: flex;
+        flex-direction: row;
+    }
+    }
+    
+    @media screen and (min-width: 400px){
+    .flex-column {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        padding: 10px;
+        margin: 25px;
+        box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.2);
+    }
+    }
+
+p, h3 {
+    padding: 12px;
+}
+
+h2{
+    text-align: center;
+    
+    padding: 20px;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0, 0.45), rgba(0,0,0,0));
+}
+
+header {
+    display: inline;
+}
+
+nav {
+    background-color: #000000;
+    position: fixed;
+    width: 100%;
+}
+
+nav.transparent{
+    background-color: rgba(0, 0, 0, 0.363);
+    color: black;
+}
+
+nav ul {
+    padding: 20px;
+}
+
+nav li {
+    display: inline;
+    position: relative;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500px;
+    margin-right: 20px;
+    color: white;
+
+}
+
+nav a:hover {
+    color: #2277d8;
+
+}
+
+.jumbotron {
+    background: #afafaf;
+    background-image: url('../img/Kantor-desa-bagorejo.jpg');
+    height: 700px;
+    text-align: center;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    background-position: center;
+}
+
+.jumbotron h1 {
+    padding-top: 26%;
+    text-shadow: 0px 1px 3px rgba(0,0,0, 0.45);
+
+}
+
+#content {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+article{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#visi-misi li{
+    margin-left: 30px;
+}
+
+.card {
+    padding: 30px;
+    margin-top: 35px;
+    box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+article img {
+    object-fit: cover;
+    width: 100%;
+}
+
+article h2 {
+    padding-top: 30px;
+}
+
+footer {
+    background-color: rgba(8, 8, 8, 0.849);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+aside {
+    background-color: rgb(75, 75, 75);
+    width: 100%;
+    margin-top: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+}
+
+aside:hover{
+    background-color: rgb(41, 41, 41);
+}
+
+aside .profile {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+
+}
+
+aside li{
+    display: inline;
+}
+
+.icon{
+    height: 32px;
+}
